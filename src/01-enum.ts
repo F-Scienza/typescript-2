@@ -1,14 +1,14 @@
 // son como literal types creamos una especie de autodocumentacion
 
 // es aconsejable que los enums esten en mayusculas
-enum ROLES {
+export enum ROLES {
   // set de conjunto de opciones
   ADMIN = "admin", // Numero o string esta bien
   SELLER = "seller",
   CUSTOMER = "customer"
 }
 
-type User = {
+export type User = {
   userName: string;
   role: ROLES
 }
